@@ -1,0 +1,64 @@
+*{
+padding:0;
+margin:0
+box-sizing:border-box;
+
+}
+.fas{
+font-size:25px;
+
+}
+span{
+color:orange;
+}
+.log{
+background-color:white;
+width: 66%;
+}
+.form-control{
+ margin:6px -42px 4px;
+}
+.from-row py-2 input{
+    font-size: 20px;
+    line-height: 10%;
+    margin: 1px 40px 1px;
+    padding: 11px 66px 3px;
+    border-radius: 3px 3px;
+}
+h1{
+font-size:45px;
+font-weight:800;
+color:brown;
+}
+.from-control{
+background-color:rgb(70,61,61);
+color:white;
+border:none;
+outline:none;
+padding:13px 70px;
+}
+.form-control:focus{
+background-color:rgb(63,56,56);
+color:white;
+outline:none;
+opacity:0.6;
+z-index : 2;
+}
+.btn1{
+background:yellow;
+color:white;
+outline:none;
+border:none;
+border-radius:50px;
+height:50px;
+width:110px;
+}
+.body{
+background-color: black;
+}
+.carousel-inner{
+background-color: transparent;
+}
+.d-block w-100{
+ background-color: black;
+}
