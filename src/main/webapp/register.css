@@ -1,0 +1,42 @@
+.card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+    background: palevioletred;
+    font-weight: bolder;
+
+}
+body{
+background-color:#3CB371;
+}
+.card-body{
+background-color:white;
+}
+.from-row py-2 {
+    font-size: 20px;
+    line-height: 30%;
+    margin: 1px 80px 1px;
+    padding: 11px 100px 3px;
+    border-radius: 3px 3px;
+}
+
+
+.card {
+  --borderWidth: 20px;
+  background: white;
+  position: relative;
+  border-radius: var(--borderWidth);
+  border-radius:31px;
+
+}
+.card:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
